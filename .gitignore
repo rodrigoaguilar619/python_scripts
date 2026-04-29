@@ -96,3 +96,5 @@ venv.bak/
 *.env
 *.ini
 *.local
+/scripts/modules/curriculum_vitae/curriculum_vitae_english/rendercv_output
+/scripts/modules/curriculum_vitae/curriculum_vitae_spanish/rendercv_output

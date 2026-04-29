@@ -1,0 +1,160 @@
+locale:
+  language: english
+
+design:
+  theme: classic
+  sections:
+   show_time_spans_in:
+   - experience
+  entries:
+    date_and_location_width: 3cm
+    space_between_columns: 0.5cm
+     
+cv:
+  name: Rodrigo Aguilar Jr
+  headline: Systems Engineer | Full Stack Developer (Java, React, Angular) | Backend Java Developer
+  location: Mexico City, MX
+  email: rodrigoaguilarjob@gmail.com
+  phone: +52-553-208-3637
+  
+  social_networks:
+    - network: GitHub
+      username: rodrigoaguilar619
+    - network: LinkedIn
+      username: Rodrigo-Aguilar-Jr
+
+  sections:
+    summary:
+      - Systems Engineer with more than 9 years of experience in full stack web development, specializing in Java, React, and Angular.
+      - Experience in software architecture, design and implementation of REST and SOAP APIs, and secure system integration for government and financial sectors.
+      - Proactive professional focused on code quality, clean architecture, and collaborative work in multidisciplinary teams.
+
+    experience:
+      - company: Banco Invex
+        position: Java Developer / Oracle DB
+        start_date: 2026-01
+        end_date: present
+        location: Mexico City
+        highlights:
+          - Development and maintenance of backend microservices for managing investment products (fixed-term deposits and coupon-bearing CEDES).
+          - Implementation of business logic for client account validation through internal API integrations.
+          - Generation of PDF reports for financial operations.
+          - Design and development of REST services using Spring Boot under a microservices architecture.
+          - Integration and management of Oracle databases, including queries and transaction handling.
+          - Deployment and administration of microservices in OpenShift environments.
+          - Implementation and maintenance of CI/CD pipelines using Bitbucket, Harness, and WSO2.
+          - Collaboration in agile teams using Scrum methodology and Jira for task and project tracking.
+        tools: Java, Oracle DB, REST, JasperReports, OpenShift, Harness, Bitbucket, WSO2
+
+      - company: DGCM SA de CV (DEVANT) - Banco Bx+
+        position: Java Developer / SQL Server
+        start_date: 2021-02
+        end_date: 2025-12
+        location: Mexico City
+        highlights:
+          - Design and implementation of REST and SOAP APIs for secure integration of internal banking systems.
+          - Development of RESTful services for CRUD operations on personal and financial customer data, ensuring transactional integrity and regulatory compliance.
+          - Implementation of web modules for document upload/download with validations and multi-user approval workflows.
+          - Automation and generation of financial and administrative reports in Excel and PDF using JasperReports.
+          - Design, development, and maintenance of backend applications based on microservices architecture using Spring Boot.
+          - Migration and modernization of enterprise applications from Java 8 to Java 11 and Java 17.
+          - Implementation of layered architecture (Controllers, Services, Repositories, Entities, Configuration).
+          - Management of application deployments via JAR uploads through FTP with automated execution setup.
+          - Development, administration, and normalization of SQL Server databases.
+          - Creation and optimization of complex stored procedures for handling large volumes of data.
+          - Implementation of security standards using Spring Security and JWT, LDAP authentication, HTTPS/TLS, input validation, and data encryption.
+        tools: Java, SQL Server, REST, SOAP, JasperReports, LDAP
+
+      - company: DGCM SA de CV (DEVANT) - Banco Bx+
+        position: Full Stack Developer (Java / React / SQL Server)
+        start_date: 2018-11
+        end_date: 2021-02
+        location: Mexico City
+        highlights:
+          - Design and development of core Java libraries to standardize security and modular architecture across projects.
+          - Development of reusable React components (tables, dynamic forms, session handling, authentication).
+          - Maintenance and enhancement of internal security libraries with LDAP integration.
+          - Development of modular backend and frontend solutions for user management, CFDI validation, and mass email automation.
+          - Implementation of React interfaces for real-time financial services integration.
+          - Development of web services for communication with the Single Registry of Movable Guarantees (RUG).
+        tools: Java, Spring MVC, Hibernate, JPA, REST, SOAP, LDAP, React, JavaScript, SQL Server
+
+      - company: Dirección Gral. para Programas MiPyMES (INADEM)
+        position: Full Stack Developer (Java / JSP / MySQL)
+        start_date: 2016-01
+        end_date: 2018-11
+        location: Mexico City
+        highlights:
+          - Development, maintenance, and updates of institutional web platforms for publishing technological solutions.
+          - Implementation of web services for secure communication between institutional systems.
+          - Design of validation and accreditation processes for providers, improving traceability and reducing operational errors.
+          - End-to-end development of registration flows, data validation, document management, and automated publishing.
+        tools: Java, JSP, Hibernate, REST, Servlets, JavaScript, JQuery, Ajax, Tomcat, MySQL, SQL Server
+
+      - company: Acuérdate Soluciones / INFOTEC
+        position: Full Stack Developer (Java / JSP)
+        start_date: 2014-05
+        end_date: 2015-12
+        highlights:
+          - Design and implementation of complete provider registration and accreditation workflows, including CRUD operations and automated publishing in Joomla portals.
+          - Maintenance and optimization of bulk email modules with template handling and batch processing.
+          - Improvement of task management modules with dynamic assignment and status control.
+        tools: Java, JSP, Hibernate, REST, Joomla, Tomcat, JavaScript, JQuery, MySQL, SQL Server
+
+    projects:
+      - name: '[Stock Market Finance]'
+        start_date: 2022-01
+        end_date: present
+        location: Mexico City
+        summary: Comprehensive web application for tracking stock purchases and sales with data visualization and secure authentication.
+        highlights:
+         - Backend developed in Java with Spring Boot and REST architecture.
+         - Frontend built with React and Redux for real-time portfolio and price visualization.
+         - Security integration using JSON Web Tokens (JWT) for route protection and authentication.
+         - Implementation of transaction tracking modules and historical price updates using WebFlux.
+         - Use of Swagger for API documentation and SonarQube for code quality.
+
+      - name: '[Diet and Food Manager]'
+        start_date: 2023-01
+        end_date: present
+        location: Mexico City
+        summary: Platform for diet management, nutrient calculation, and nutritional report generation.
+        highlights:
+         - Backend in Java with Spring Boot exposing structured REST endpoints for food and diet management.
+         - Frontend in Angular with Redux for a smooth user experience.
+         - Real-time calculation of macro and micronutrients.
+         - PDF report generation for diet tracking.
+         - Integration of Swagger for API documentation and SonarQube for code quality analysis.
+
+    education:
+      - institution: Instituto Tecnológico Superior de Fresnillo
+        area: Computer Systems Engineering
+        degree: Engr.
+        start_date: 2009
+        end_date: 2014
+        location: Fresnillo, Zacatecas
+
+    certifications:
+      - name: Oracle Certified Professional, Java SE 6 Programmer
+        institution: Instituto Tecnológico Superior de Fresnillo
+        date: 2013-06
+
+      - name: Scrum Fundamentals Certified
+        institution: SCRUMstudy
+        date: 2022-11
+
+      - name: SEI-Certified PSP Developer
+        institution: SIE Center
+        date: 2015-09
+
+    skills:
+      - label: Frontend
+        details: React, JSP, HTML, CSS, JQuery, Ajax, JavaScript, TypeScript, JWT
+      - label: Backend
+        details: Java, Spring Boot, Spring MVC, Hibernate, JPA, REST, SOAP, JWT
+      - label: Databases
+        details: SQL Server, MySQL, Oracle DB
+      - label: Tools and Servers
+        details: Tomcat, JasperReports, LDAP
+      - label: DevOps
+        details: Git, GitHub, SVN, Docker, SonarQube, Bitbucket, Harness, WSO2
