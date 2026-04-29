@@ -1,0 +1,163 @@
+locale:
+  language: spanish
+
+design:
+  theme: classic
+  sections:
+   show_time_spans_in:
+   - experiencia
+  entries:
+    date_and_location_width: 3cm
+    space_between_columns: 0.5cm
+     
+
+cv:
+  name: Rodrigo Aguilar Jr
+  headline: Ingeniero en Sistemas | Desarrollador Full Stack Java, React y Angular | Desarrollador Backend Java
+  location: Ciudad de México, MX
+  email: rodrigoaguilar619@gmail.com
+  phone: +52-553-208-3637
+  website: https://portfolio-rodrigo-aguilar.netlify.app/
+  
+  social_networks:
+    - network: GitHub
+      username: rodrigoaguilar619
+    - network: LinkedIn
+      username: Rodrigo-Aguilar-Jr
+
+  sections:
+    resumen:
+      - Ingeniero en Sistemas con más de 9 años de experiencia en desarrollo web full stack, especializado en Java, React y Angular.
+      - Desarrollo en arquitectura de software, diseño e implementación de APIs REST y SOAP, e integración de sistemas seguros para sectores gubernamentales y financieros.
+      - Profesional proactivo, con enfoque en calidad de código, arquitectura limpia y trabajo colaborativo en equipos multidisciplinarios.
+
+    experiencia:
+      - company: Banco Invex
+        position: Desarrollador Java / DB Oracle
+        start_date: 2026-01
+        end_date: present
+        location: CDMX
+        highlights:
+          - Desarrollo y mantenimiento de microservicios backend para la gestión de productos de inversión (pagarés y CEDES cuponados).
+          - Implementación de lógica de negocio para validación de cuentas de clientes, realizando conexiones con APIs internas para consulta de cuentas.
+          - Generación de reportes en PDF para operaciones financieras.
+          - Diseño y desarrollo de servicios REST utilizando Spring Boot bajo arquitectura de microservicios.
+          - Integración y gestión de bases de datos Oracle, incluyendo consultas y manejo de transacciones. 
+          - Despliegue y administración de microservicios en entornos OpenShift.
+          - Implementación y mantenimiento de pipelines de CI/CD utilizando Bitbucket, Harness y WSO2.
+          - Colaboración en equipos ágiles bajo metodología Scrum, utilizando Jira para la gestión de tareas, incidencias y seguimiento de proyectos.
+        tools: Java, DB Oracle, REST, JasperReports, OpenShift, Harness, Bitbucket, WSO2
+
+      - company: DGCM SA de CV (DEVANT) - Banco Bx+
+        position: Desarrollador Java / SQL Server
+        start_date: 2021-02
+        end_date: 2025-12
+        location: CDMX
+        highlights:
+          - Diseño e implementación de APIs REST y SOAP para la integración segura de sistemas internos del banco Bx+.
+          - Desarrollo de servicios RESTful para operaciones CRUD sobre bases de datos con información de clientes personal y financiera, garantizando integridad transaccional y cumplimiento de normativas bancarias.
+          - Implementación de módulos web para carga y descarga de documentos (contratos, identificaciones y comprobantes), con validaciones de tipo, tamaño y flujos de aprobación multiusuario.
+          - Automatización y generación de reportes financieros y administrativos en formatos Excel y PDF mediante JasperReports, facilitando el análisis de la cartera de créditos.
+          - Diseño, desarrollo y mantenimiento de aplicaciones backend basadas en arquitectura de microservicios, utilizando Spring Boot, para garantizar la independencia entre las distintas aplicaciones y un mejor despliegue sin afectar todo el ecosistema.
+          - Migración y modernización de aplicaciones empresariales de Java 8 a Java 11 y Java 17, asegurando compatibilidad, mejoras de rendimiento y adopción de nuevas características del lenguaje.
+          - Implementación de una arquitectura en capas (Layered Architecture) basada en Spring Boot, estructurada en Controllers, Services, Repositories, Entities y Configuración, facilitando la mantenibilidad y escalabilidad de las aplicaciones.
+          - Gestión de despliegues de aplicaciones backend mediante la carga de archivos JAR vía FTP a servidores, con configuración para la ejecución automática en instancias específicas.
+          - Desarrollo, administración y normalización de bases de datos en SQL Server para almacenar informacion de los clientes del banco, administración de documentos e información referente a créditos bancarios.
+          - Creación y optimización de Stored Procedures con consultas complejas sobre múltiples tablas relacionadas, orientadas al manejo de grandes volúmenes de datos.
+          - Implementación de estándares de seguridad utilizando Spring Security y JWT (JSON Web Tokens) para autenticación, con validación de credenciales contra un repositorio LDAP institucional, establecimiento de conexiones seguras HTTPS/TLS, validaciones de datos de entrada y cifrado de información sensible.
+        tools: Java, SQL Server, REST, SOAP, JasperReports, LDAP
+
+      - company: DGCM SA de CV (DEVANT) - Banco Bx+
+        position: Desarrollador Full Stack Java / React / SQL Server
+        start_date: 2018-11
+        end_date: 2021-02
+        location: CDMX
+        highlights:
+          - Diseño y desarrollo de librerías base en Java para estandarizar seguridad, estructura modular y configuración de múltiples proyectos del banco.
+          - Construcción de componentes reutilizables en React para tablas, formularios dinámicos, manejo de sesión y autenticación, reduciendo tiempos de desarrollo frontend.
+          - Mantenimiento y mejora de librerías internas de seguridad, incluyendo integración y validación de autenticación LDAP.
+          - Desarrollo de soluciones modulares backend y frontend para gestión de usuarios, validación de CFDI y automatización de envíos masivos de correos electrónicos.
+          - Implementación de interfaces React para consumo de servicios financieros en tiempo real, integrando APIs de forma segura.
+          - Desarrollo de servicios web para comunicación con el Registro Único de Garantías Mobiliarias (RUG), automatizando el intercambio de información con dependencias gubernamentales.
+        tools: Java, Spring MVC, Hibernate, JPA, REST, SOAP, LDAP, React, JavaScript, SQL Server
+
+      - company: Dirección Gral. para Programas MiPyMES (INADEM)
+        position: Desarrollador Full Stack Java / JSP / MySQL
+        start_date: 2016-01
+        end_date: 2018-11
+        location: CDMX
+        highlights:
+          - Desarrollo, actualización y mantenimiento de plataformas web institucionales para el registro y publicación de soluciones tecnológicas en las Vitrinas del INADEM.
+          - Implementación de servicios web para la comunicación segura entre plataformas institucionales como el Sistema Emprendedor y las Vitrinas.
+          - Diseño de procesos de validación y acreditación de proveedores, mejorando la trazabilidad de solicitudes y reduciendo errores operativos.
+          - Construcción completa de flujos de registro, validación de datos, gestión documental y publicación automatizada de proveedores.
+        tools: Java, JSP, Hibernate, REST, Servlets, JavaScript, JQuery, Ajax, Tomcat, MySQL, SQL Server
+
+      - company: Acuérdate Soluciones / INFOTEC
+        position: Desarrollador Full Stack Java / JSP
+        start_date: 2014-05
+        end_date: 2015-12
+        highlights:
+          - Diseño e implementación del flujo completo de registro y acreditación de proveedores, incluyendo CRUD de soluciones tecnológicas y publicación automatizada en portales Joomla.
+          - Mantenimiento y optimización de módulos de envío masivo de correos electrónicos con manejo de plantillas y procesamiento por lotes.
+          - Mejora del módulo de gestión de tareas, incorporando asignación dinámica por perfiles de usuario y control de estatus.
+        tools: Java, JSP, Hibernate, REST, Joomla, Tomcat, JavaScript, JQuery, MySQL, SQL Server
+
+    proyectos:
+      - name: '[Finanzas Bolsa de Valores](https://portfolio-rodrigo-aguilar.netlify.app/projects/finanzas_bolsa_valores/main/)'
+        start_date: 2022-01
+        end_date: present
+        location: CDMX
+        summary: Aplicación web integral para el registro y control local de compras y ventas de emisoras de bolsa de valores, con visualización gráfica de datos y autenticación segura.
+        highlights:
+         - Backend desarrollado en Java con Spring Boot y arquitectura REST para exponer endpoints robustos de gestión financiera (servicios y lógica de negocio).
+         - Frontend utilizando React con Redux para visualización de precios, portafolio y alertas en tiempo real.
+         - Integración de seguridad mediante JSON Web Tokens (JWT) para protección de rutas y autenticación de usuarios.
+         - Implementación de módulos de rastreo de transacciones y actualización histórica de precios por fecha de emisoras usando WebFlux.
+         - Uso de Swagger para documentación interactiva de APIs y SonarQube para aseguramiento de calidad de código.
+
+      - name: '[Gestor de Dietas y Alimentos](https://portfolio-rodrigo-aguilar.netlify.app/projects/diet_control/main/)'
+        date:
+        start_date: 2023-01
+        end_date: present
+        location: CDMX
+        summary: Plataforma para registro y gestión de dietas, cálculo automático de nutrientes y generación de reportes nutricionales basada en los alimentos y porciones ingresadas.
+        highlights:
+         - Backend en Java con Spring Boot que expone endpoints REST estructurados para manejo de alimentos, dietas y cálculos de nutrientes.
+         - Frontend en Angular con Redux para una experiencia de usuario fluida en la gestión de dietas, edición de alimentos y visualización de nutrientes.
+         - Cálculo en tiempo real de totales de macros y micronutrientes basado en datos ingresados por usuario, con paneles de resumen interactivos.
+         - Generación de reportes en PDF para seguimiento detallado de dietas y consumo nutricional.
+         - Integración de Swagger para documentación de APIs y SonarQube para calidad de código y análisis estático.
+
+    educación:
+      - institution: Instituto Tecnológico Superior de Fresnillo
+        area: Ingeniería en Sistemas Computacionales
+        degree: Ing.
+        start_date: 2009
+        end_date: 2014
+        location: Fresnillo, Zacatecas
+
+    certificaciones:
+      - name: Oracle Certified Professional, Java SE 6 Programmer
+        institution: Instituto Tecnológico Superior de Fresnillo
+        date: 2013-06
+
+      - name: Scrum Fundamentals Certified
+        institution: SCRUMstudy
+        date: 2022-11
+
+      - name: SEI-Certified PSP Developer
+        institution: SIE Center
+        date: 2015-09
+
+    skills:
+      - label: Frontend
+        details: React, JSP, HTML, CSS, JQuery, Ajax,JavaScript, TypeScript, JWT
+      - label: Backend
+        details: Java, Spring Boot, Spring MVC, Hibernate, JPA, REST, SOAP, JWT
+      - label: Bases de datos
+        details: SQL Server, MySQL
+      - label: Herramientas y servidores
+        details: Tomcat, JasperReports, LDAP
+      - label: DevOps
+        details: Git, GitHub, SVN, Dockers, SonarQube
